@@ -21,16 +21,16 @@ This project doesn't yet have any releases, so to use it you must build from sou
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-You'll also need an access token for the SpaceTraders API, as well as to have already registered a new agent (doing so from the client directly coming soon). To do this, follow the first two sections of the [New Game Quickstart docs](https://docs.spacetraders.io/quickstart/new-game).
-
 ### Installation ⚙️
 
 1. Clone this project
-2. In the root of the project, create a new file named `.env`. Open this file and paste in your API token. Don't forget to save!
-3. Run the client with `cargo run` from the root directory
+2. Run the client with `cargo run` from the root directory
+
+That's it! Just follow the prompts from the client to learn about and interact with the APIs!
 
 ## Software used 👨‍💻
 
 - rustlang
 - reqwests
-- serde
+- serde & serde_json
+- tempfile
